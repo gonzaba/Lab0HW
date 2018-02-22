@@ -9,12 +9,11 @@ public class AreaCalculation{
 	public static void main(String args[])
 	{
 	int radius;
-	double pi = 3.14
 	double area;
 	Scanner input = new Scanner(System.in);
 	System.out.print("Please give the radius of the circle:" );
 	radius = input.nextInt();
-	area = pi *radius*radius;
+	area = Math.PI *(radius*radius);
 	System.out.print("Area is:" + area); 
 	}
 }
