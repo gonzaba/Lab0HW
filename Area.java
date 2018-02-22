@@ -1,3 +1,4 @@
+
 /** 
  * @author: Barbara P. Gonzalez-Rivera 802-14-2976
  * @description: Java program to calculate the area of a circle given the radius.
@@ -15,5 +16,6 @@ public class AreaCalculation{
 	radius = input.nextInt();
 	area = Math.PI *(radius*radius);
 	System.out.print("Area is:" + area); 
-	}
+	System.out.print("Half of Area is" +radius);
+}
 }
